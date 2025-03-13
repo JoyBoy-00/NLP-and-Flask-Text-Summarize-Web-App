@@ -1,2 +1,2 @@
 # NLP-and-Flask-Text-Summarize-Web-App
-ML project
+A text summarizer using Ollama model nlp
