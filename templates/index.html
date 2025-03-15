@@ -10,9 +10,15 @@
     <div class="container">
         <h1>Text Summarizer</h1>
         <form method="POST" action="{{ url_for('summarize') }}">
-            <div class="input-section">
-                <label for="input_text">Enter your text:</label>
-                <textarea name="input_text" id="input_text" rows="10" cols="50" required></textarea>
+            <div class="text-boxes">
+                <div class="input-section">
+                    <label for="input_text">Enter your text:</label>
+                    <textarea name="input_text" id="input_text" rows="10" cols="50" required></textarea>
+                </div>
+                <div class="output-section">
+                    <label for="output_text">Summary:</label>
+                    <textarea name="output_text" id="output_text" rows="10" cols="50" required></textarea>
+                </div>
             </div>
 
             <div class="options-section">
